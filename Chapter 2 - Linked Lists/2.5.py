@@ -21,7 +21,3 @@ def addNumbers(ll1, ll2):
                 ll.append(carry) #accounting for the edge case of the answer having 1 more digit than either of the added numbers
 
     return(ll)
-
-def addNumbersFollowup(ll1, ll2):
-    #pad the shorter list with zeroes
-    
